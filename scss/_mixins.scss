@@ -12,12 +12,16 @@
 }
 @mixin heading-font() {
   // font-family: 'Signika Negative', sans-serif;
-  font-family: 'Arima Madurai', cursive;
+  // font-family: 'Arima Madurai', cursive;
+  font-family: 'Varela Round', sans-serif;
+  // font-family: 'Knewave', cursive;
+  
 }
 // @mixin serif-font() {
 //   font-family: 'Roboto Slab', serif;
 //   // font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 // }
 @mixin sans-serif-font() {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  // font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
