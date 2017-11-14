@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  @include serif-font;
+  @include sans-serif-font;
 }
 
 hr {
@@ -33,11 +33,15 @@ h3,
 h4,
 h5,
 h6 {
-  @include sans-serif-font;
+  // @include sans-serif-font;
+  // @include cursive-font;
+  @include heading-font;
+
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  // background-color: $primary !important;
+  background-color: $columbia-blue !important;
 }
 
 .bg-dark {

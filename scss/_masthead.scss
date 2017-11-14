@@ -10,10 +10,14 @@ header.masthead {
     margin-bottom: 30px;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 5rem !important;
+    color: $primary;
+    text-transform: none !important;
   }
   p {
-    font-weight: 300;
+    font-weight: 400;
+    color: $primary;
+    
   }
   @media (min-width: 768px) {
     p {

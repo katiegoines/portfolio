@@ -1,29 +1,36 @@
 // Styling for the navbar
 #mainNav {
   border-bottom: 1px solid fade-out($gray-900, .9);
-  background-color: $white;
-  @include sans-serif-font;
+  background-color: $white;  
+  background-color: rgba(255, 255, 255, 0.8);
+  @include heading-font;
   @include transition-all;
   .navbar-brand {
+    font-size: 2rem;
     font-weight: 700;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     color: $primary;
-    @include sans-serif-font;
+    @include heading-font;
     &:focus,
     &:hover {
       color: darken($primary, .1);
     }
   }
+  .container {
+    margin-right: 5px;
+  }
   .navbar-nav {
     > li.nav-item {
        > a.nav-link,
       > a.nav-link:focus {
+        text-align: right;
         font-size: .9rem;
         font-weight: 700;
         text-transform: uppercase;
-        color: $gray-900;
+        // color: $gray-900;
+        color: $primary !important;
         &:hover {
-          color: $primary;
+          color: $blue-sapphire !important;
         }
         &.active {
           color: $primary !important;
@@ -39,10 +46,12 @@
     border-color: transparent;
     background-color: transparent;
     .navbar-brand {
-      color: fade-out($white, .3);
+      // color: fade-out($white, .3);
+      color: $primary  !important;
       &:focus,
       &:hover {
-        color: $white;
+        color: $white !important;
+        // color: darken($primary, .1) !important;
       }
     }
     .navbar-nav > li.nav-item > a.nav-link {
@@ -52,7 +61,7 @@
     .navbar-nav > li.nav-item > a.nav-link:focus {
       color: fade-out($white, .3);
       &:hover {
-        color: $white;
+        color: $blue-sapphire !important;
       }
     }
     &.navbar-shrink {
@@ -62,7 +71,8 @@
         color: $primary;
         &:focus,
         &:hover {
-          color: darken($primary, .1);
+          // color: darken($primary, .1);
+          color: $blue-sapphire !important;
         }
       }
       .navbar-nav > li.nav-item > a.nav-link,
