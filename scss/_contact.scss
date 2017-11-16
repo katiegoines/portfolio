@@ -1,11 +1,25 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
-  background-image: url('../img/map-image.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  .section-heading {
-    color: $white;
+  // background-color: $gray-900;
+  // background-image: url('../img/map-image.png');
+  // background-repeat: no-repeat;
+  // background-position: center;
+
+  .contact-icon {
+    width: 96px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+  }
+  h4 {
+    text-align: center;
+  }
+  a {
+    color: $dark-gray;
+  }
+  a:hover {
+    text-decoration: none;
+    color: $primary;
   }
   .form-group {
     margin-bottom: 25px;

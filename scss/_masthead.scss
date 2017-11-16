@@ -5,9 +5,10 @@ header.masthead {
   background-image: url('../img/header.jpg');
   background-position: center center;
   @include background-cover;
+  height: 100vh;  
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    // padding-top: 150px;
+    // padding-bottom: 100px;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -17,12 +18,13 @@ header.masthead {
       @include serif-font;
     }
     .intro-heading {
-      font-size: 50px;
+      font-size: 5rem;
       font-weight: 700;
-      line-height: 50px;
-      margin-top: 50px;
+      line-height: 5rem;
+      margin-top: 5rem;
       margin-bottom: 25px;
       text-align: center;
+      color: black;
       @include heading-font;
     }
     p {
@@ -30,12 +32,16 @@ header.masthead {
       margin-bottom: 50px;
     }
   }
+  .arrow {
+    margin-top: 10%;
+  }
 }
 @media(min-width:768px) {
   header.masthead {
+    height: 100vh;
     .intro-text {
-      padding-top: 0;
-      padding-bottom: 200px;
+      // padding-top: 0;
+      // padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -44,15 +50,16 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
+        font-size: 7rem;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 7rem;
+        margin-top: 10rem;
         margin-bottom: 50px;
         @include heading-font;
       }
-      .btn-xl {
-        margin: 0 auto;
-      }
+    }
+    .arrow {
+      margin-top: 10%;
     }
   }
 }
