@@ -249,7 +249,8 @@ p {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(22, 96, 136, 0.9); }
+      background: rgba(22, 96, 136, 0.9);
+      border-radius: 20px; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -494,9 +495,10 @@ p {
 
 section#contact .contact-icon {
   width: 96px;
-  overflow: hidden;
   margin: 0 auto;
   display: block; }
+section#contact .fa-envelope:hover {
+  color: white; }
 section#contact p {
   text-align: center; }
 section#contact a {
