@@ -1,5 +1,7 @@
 # [Katie Goines](katiegoines.com)
 
+![Screenshot](https://i.imgur.com/YfM7kZH.jpg?1)
+
 ### Built using:
 
 - Theme - [Start Bootstrap's Agency Theme](https://startbootstrap.com/template-overviews/agency/)
@@ -18,4 +20,4 @@ Start Bootstrap is an open source library of free Bootstrap templates and themes
 
 ## Copyright and License
 
-Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license. 
