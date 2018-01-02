@@ -1,4 +1,4 @@
-# [Katie Goines](katiegoines.com)
+# [Portfolio Site (katiegoines.com)](katiegoines.com)
 
 ![Screenshot](https://i.imgur.com/YfM7kZH.jpg?1)
 
